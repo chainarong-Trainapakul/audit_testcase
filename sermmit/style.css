@@ -1,0 +1,126 @@
+.head {
+      height: 90px;
+      background: #CDAA7D; 
+	text-align: center;
+	padding-top: 10px;
+	color: #000;
+	width: 200px;
+	
+}
+.data {
+    
+	background:#FFEC8B;
+	
+
+    width: 100%;
+	
+}
+
+body{
+	
+	background: #EECFA1; 
+}
+
+.container {
+	
+ margin-top: 120px;
+  background: #8B795E;
+ border: 2px solid #8B795E;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; border-radius: 3px; 
+   height: 500px;
+   color: #fff;
+   width: 650px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 40px;
+}
+
+.datagrid {
+    padding:10px; 
+      background: #EECFA1; 
+	  overflow: hidden; 
+      border: 1px solid #EECFA1; 
+      -webkit-border-radius: 3px; 
+      -moz-border-radius: 3px; border-radius: 3px; 
+	  height: 190px;
+	  color: #000;
+	  margin-top: 5px;
+}
+.footer{
+	text-align: right;
+	 margin-top: 50px;
+
+	
+}
+.a:link {
+    text-decoration: none;
+	
+}
+
+.a:visited {
+    text-decoration: none;
+	color: #000;
+	text-align: right;
+}
+
+.a:hover {
+
+	color: red;
+}
+
+.a:active {
+    text-decoration: underline;
+}
+.a{
+	text-align: right;
+}
+.input{
+	  padding:10px; 
+      border: 1px solid ; 
+      -webkit-border-radius: 3px; 
+      -moz-border-radius: 3px;
+	  border-radius: 3px; 
+	
+}
+td{
+	background: #EECFA1;
+	color: #000;
+}
+td:hover{
+	background: #000;
+	 -webkit-border-radius: 3px; 
+      -moz-border-radius: 3px;
+	  border-radius: 3px; 
+}
+ul {
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	left: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
